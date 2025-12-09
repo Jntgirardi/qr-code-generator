@@ -28,7 +28,7 @@ public class DemoApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 		try {
-			// CONFIGURAÇÃO: ALTE O LINK AQUI
+			// Link para gerar o Qrcode
 			String conteudoQrCode = "https://www.youtube.com/";
 
 			String diretorioRaiz = System.getProperty("user.dir");
